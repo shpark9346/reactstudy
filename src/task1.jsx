@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 const Task1 = () => {
     const [num, setNum] = useState(0);
     const plusNum = () => {
-        setNum(num+1)
+        setNum(num+1)  
+        
     };
     const minusNum = () => {
         setNum(num-1)
